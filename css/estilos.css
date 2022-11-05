@@ -18,7 +18,7 @@ body{
 
 /*  Texto    */ 
 
-.inicioC{
+#inicioC{
     font-size: 18px;
     color: rgb(255, 255, 255);
     font-family: 'Handlee', cursive;
@@ -30,6 +30,9 @@ body{
 
 
 /* Iconos e imagenes */
+.nav{
+    
+}
 
 .iconC {
     margin-top: 4px;
