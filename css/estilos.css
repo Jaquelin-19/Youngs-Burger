@@ -29,14 +29,13 @@ header {
     display: flex;
     flex-shrink: 0;
     position: absolute;
-    background-color: rgba(252, 252, 252, 0.281);
 }
 
 .whatss{
     margin: 0;
     position: absolute;
     top: 0px;
-    left: 1px;
+    left: 0px;
 }
 
 .img1{
