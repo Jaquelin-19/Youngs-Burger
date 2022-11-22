@@ -32,9 +32,10 @@ body{
         text-decoration: none;
         color: white;
         font-family: 'Handlee', cursive;
-        font-size: 120%;
+        font-size: 1.5vw;
         font-weight: bold;
         justify-content: right;
+        margin-right: 10px;
     }
 }
 
