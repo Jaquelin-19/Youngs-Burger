@@ -103,7 +103,12 @@ body{
 
 
 /* Iconos e imagenes */
-.nav-link{
+nav a{
+    font-weight: 600;
+    padding-right: 15px;
+}
 
+nav a:hover{
+    color: #e59f4a
 }
 /* comentario*/
