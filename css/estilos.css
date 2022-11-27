@@ -100,7 +100,14 @@ body{
     left: 200px;
 }
 
-
+.ubicacionC{
+    font-weight: bold;
+    font-family: 'Handlee', cursive;
+    padding: 100px;
+    width: 100%;
+    height: 300px;
+    background-color: #e59f4a;
+}
 
 /* Iconos e imagenes */
 nav a{
