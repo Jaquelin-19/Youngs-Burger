@@ -1,6 +1,10 @@
 body{
     margin: 0;
+    padding: 0;
+    height: 100%;
+    
 }
+
 .fondo {
     margin-top: 0px;
     width: 100%;
@@ -45,12 +49,13 @@ body{
     
     .slide-contenedor{
         max-width:100%;
-        max-height: 100vh;
+        margin-bottom: 50px;
         width: 100%;
         height:auto;
         top: 10%;
         position: absolute;
-        overflow: hidden;
+        
+
         /* margin: auto; */
     }
     
@@ -125,6 +130,20 @@ body{
         to{opacity:1;}
     }
 
+
+    /*   footer   */
+    .footer1{
+        position: absolute;
+        margin-top: 50px;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        background-color: black;
+    }
+
+    #face{
+        position: absolute;
+    }
 }
 
     
