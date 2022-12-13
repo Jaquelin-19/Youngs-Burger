@@ -45,27 +45,54 @@
             <a href="quienes.html" class="nav-link">¿Quiénes somos?</a>
         </nav>
     </header>
+
     <body>
-        <div class="contenedor">
-            <div class="mov">
-                <div class="contenido">
-                    <a class="whatss" href="https://www.epicgames.com/fortnite/es-ES/home">
-                        <img class="img1" src="img/imgBurguer/hamburguesa1.0.jpeg" alt="">
-                    </a>
-                </div>
-
-                <div class="contenido">
-                    <a class="whatss2" href="https://www.epicgames.com/fortnite/es-ES/home">
-                        <img class="img2" src="img/imgBurguer/hamburguesa1.0.jpeg" alt="">
-                    </a>
-                </div>
-
-                <div class="contenido">
-                    <a class="whatss3" href="https://www.epicgames.com/fortnite/es-ES/home">
-                        <img class="img3" src="img/imgBurguer/hamburguesa1.0.jpeg" alt="">
-                    </a>
-                </div>
+        <div class="slide-contenedor">
+            <div class="miSlider fade">
+                <img src="img/imgBurguer/hamburguesa1.01.jpg" alt="">
+            </div>
+            <div class="miSlider fade">
+                <img src="img/imgBurguer/hamburguesa2.01.jpg"  alt="">
+            </div>
+            <div class="miSlider fade">
+                <img src="img/imgBurguer/hamburguesa1.0.jpeg" alt="">
+            </div>
+            <div class="direcciones">
+                <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+                <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+            </div>
+            <div class="barras">
+                <span class="barra active" onclick="posicionSlide(1)"></span>
+                <span class="barra" onclick="posicionSlide(2)"></span>
+                <span class="barra" onclick="posicionSlide(3)"></span>
             </div>
         </div>
+
+        <div class="cuadrado">
+
+        </div>
+<!--
+        <div class="footer1">
+            <p>contacto
+            </p>
+            <p>jol</p>
+            <a id="iconF" href="#"><img src="img/iconos/facebook.png" alt="facebook"></a>
+            <a id="iconI" href="#"><img src="img/iconos/instagram.png" alt="facebook"></a>
+            <a id="iconT" href="#"><img src="img/iconos/twitter.png" alt="facebook"></a>
+            <a id="iconW" href="#"><img src="img/iconos/whatsapp.png" alt="facebook"></a>
+        </div> -->
+        <script src="js/main.js"></script>
 </body>
+</html>
+
+<footer>
+    <div class="footer">
+        <h5>Written by &copy; Copyright Noviembre 2022</h5>
+        <p>jol</p>
+        <a id="iconF" href="#"><img src="img/iconos/facebook.png" alt="facebook"></a>
+        <a id="iconI" href="#"><img src="img/iconos/instagram.png" alt="facebook"></a>
+        <a id="iconT" href="#"><img src="img/iconos/twitter.png" alt="facebook"></a>
+        <a id="iconW" href="#"><img src="img/iconos/whatsapp.png" alt="facebook"></a>
+    </div>
+</footer>
 </html>
