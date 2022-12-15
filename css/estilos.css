@@ -268,7 +268,38 @@ nav a:hover{
 /* historia */
 
     .cuadrado{
-        height: 50%;
+        width: 100%;
+        height: 0%;
+        padding-bottom: 20%;
+        margin-top: 2%;
+        margin-bottom: 0px;
+        left: 0%;
+        position: absolute;
+        background-color: black;
     }
 
+    .iconP{
+        width: 20%;
+        left: 40%;
+        position: absolute;
+    }
+
+    .iconUsuario{
+        margin-top: 27%;
+        margin-left: 8%;
+        width: 20%;
+        position: absolute;
+    }
+
+    .textHis{
+        margin-top: 27%;
+        margin-left: 60%;
+        position: absolute;
+    }
+
+    .parrafHis{
+        margin-top: 29%;
+        margin-left: 33%;
+        position: absolute;
+    }
 }
