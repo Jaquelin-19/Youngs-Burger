@@ -1,21 +1,21 @@
-body{
-    margin: 0;
-    padding: 0
-    
-}
+@media only screen and (max-width: 3840px) {
+    body{
+        margin: 0;
+        padding: 0
+        
+    }
 
-.fondo {
-    margin-top: 0px;
-    width: 100%;
-    height: 100%;
-    position: inherit;
-    background-color: rgb(219, 217, 217);
-}
-
+    .fondo {
+        margin-top: 0px;
+        width: 100%;
+        height: 100%;
+        position: inherit;
+        background-color: rgb(219, 217, 217);
+    }
 
 
 /*  Cabecera  */
-@media only screen and (max-width: 3840px) {
+
     header {
         display: flex;
         justify-content: space-between;
@@ -87,9 +87,53 @@ body{
 }
 
 
-/*   Slide    */
-@media only screen and (max-width: 3840px) {
+    .imgUber{
+        width: 100%;
+    }
+
+    .botonUber{
+        top: 143%;
+        left: 20%;
+        width: 12%;
+        height: 6%;
+        position: absolute;
+        background-color: white;
+        border: none;
+        border-radius: 20px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .textUber{
+        text-align: center;
+        font-size: 21px;
+        margin-top: 6px;
+        font-family: 'PT Mono', monospace;
+    }
+
+    .botonRappi{
+        top: 143%;
+        left: 35%;
+        width: 12%;
+        height: 6%;
+        position: absolute;
+        background-color: white;
+        border: none;
+        border-radius: 20px;
+        text-decoration: none;
+        color: black;
+    }
     
+    .textRappi{
+        text-align: center;
+        font-size: 21px;
+        margin-top: 6px;
+        font-family: 'PT Mono', monospace;
+    }
+
+
+/*   Slide    */
+   
     .slide-contenedor{
         max-width:100%;
         margin-bottom: 2%;
@@ -194,14 +238,7 @@ body{
 
     #face{
         position: absolute;
-    }
-
-
-
-}
-
-    
-
+    }    
 
 /*  Texto    */ 
 
@@ -275,4 +312,41 @@ nav a{
 nav a:hover{
     color: #e59f4a
 }
-/* comentario*/
+/* historia */
+
+    .cuadrado{
+        width: 100%;
+        height: 0%;
+        padding-bottom: 20%;
+        margin-top: 2%;
+        margin-bottom: 0px;
+        left: 0%;
+        position: absolute;
+        background-color: black;
+    }
+
+    .iconP{
+        width: 20%;
+        left: 40%;
+        position: absolute;
+    }
+
+    .iconUsuario{
+        margin-top: 27%;
+        margin-left: 8%;
+        width: 20%;
+        position: absolute;
+    }
+
+    .textHis{
+        margin-top: 27%;
+        margin-left: 60%;
+        position: absolute;
+    }
+
+    .parrafHis{
+        margin-top: 29%;
+        margin-left: 33%;
+        position: absolute;
+    }
+}
