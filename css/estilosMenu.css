@@ -54,7 +54,7 @@ nav a:hover{
 .subCabecera{
     background-color: #e59f4a;
     height: 120px;
-    font-family:Impact, sans-serif;
+    font-family:'Yeseva One' ;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -62,27 +62,57 @@ nav a:hover{
 
 .resumenM{
     background-color: black;
-    height: 600px;
+    height: 350px;
+    
+}
+
+.objetoMenu{
+    color:#e59f4a;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    text-align: center;
+    margin-left: 15px;
 }
 
 .tituloMenu{
-    color:#e59f4a;
-    font-size: 15px;
+    font-size: 18px;
     font-family: 'Handlee';
     font-weight: bold;
 }
 
-.objetoMenu{
-    width: 150px;
-    height: 150px;
-    position: relative;
-}
-
 .imgObjeto{
-    width: 100px;
-    height: 100px;
+    margin-top: 70px;
+    width: 145;
+    height: 145px;
+    border-radius: 13%;
 }
 
+#hamburguesa{
+    float: left;
+}
 
+#marytierra{
+    float: left;
+}
 
+#hotdog{
+    float: left;
+}
 
+#snacks{
+    float: left;
+}
+
+#bebida{
+    float: left;
+}
+
+.menuHamburguesa{
+    background-color: #e59f4a;
+    height: 120px;
+    font-family:'Yeseva One' ;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
