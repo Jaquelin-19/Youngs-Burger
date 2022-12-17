@@ -1,21 +1,20 @@
-body{
-    margin: 0;
-    padding: 0
-    
-}
+@media only screen and (max-width: 3840px) {
+    body{
+        margin: 0;
+        padding: 0
+        
+    }
 
-.fondo {
-    margin-top: 0px;
-    width: 100%;
-    height: 100%;
-    position: inherit;
-    background-color: rgb(219, 217, 217);
-}
-
-
+    .fondo {
+        margin-top: 0px;
+        width: 100%;
+        height: 100%;
+        position: inherit;
+        background-color: rgb(219, 217, 217);
+    }
 
 /*  Cabecera  */
-@media only screen and (max-width: 3840px) {
+
     header {
         display: flex;
         justify-content: space-between;
@@ -40,79 +39,130 @@ body{
         justify-content: right;
         margin-right: 10px;
     }
-}
 
-nav a{
-    font-weight: 600;
-    padding-right: 15px;
-}
+    nav a{
+        font-weight: 600;
+        padding-right: 15px;
+    }
 
-nav a:hover{
-    color: #e59f4a
-}
+    nav a:hover{
+        color: #e59f4a
+    }
 
-.subCabecera{
-    background-color: #e59f4a;
-    height: 120px;
-    font-family:'Yeseva One' ;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-}
 
-.resumenM{
-    background-color: black;
-    height: 350px;
-    
-}
+    .subCabecera{
+        font-family:'Yeseva One' ;
+        font-size: 1.8vw;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
 
-.objetoMenu{
-    color:#e59f4a;
-    width: 250px;
-    height: 250px;
-    position: relative;
-    text-align: center;
-    margin-left: 15px;
-}
+    .resumenM{
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        position: relative;
+        height: 0%;
+        padding-bottom: 25%;
+        margin-bottom: 0px;
+        left: 0%;
+    }
 
-.tituloMenu{
-    font-size: 18px;
-    font-family: 'Handlee';
-    font-weight: bold;
-}
+    .objetoMenu{
+        width: 15%;
+        color:#fc9211;
+        position: relative;
+        padding: 0%;
+        float: left;
+        margin-top: 6%;
+        margin-left: 4%;
+        text-align: center;
+    }
 
-.imgObjeto{
-    margin-top: 70px;
-    width: 145;
-    height: 145px;
-    border-radius: 13%;
-}
+    .tituloMenu{
+        position: relative;
+        font-size: 1.6vw;
+        font-family: 'Handlee';
+        font-weight: bold;
+    }
 
-#hamburguesa{
-    float: left;
-}
+    .imgObjeto{
+        position: relative;
+        width: 65%;
+        margin: 0%;
+        padding: 0%;
+        border-radius: 13%;
+    }
 
-#marytierra{
-    float: left;
-}
 
-#hotdog{
-    float: left;
-}
 
-#snacks{
-    float: left;
-}
+    /* Burguers */
 
-#bebida{
-    float: left;
-}
+    .menuHamburguesa{
+        background-color: #fa9417;
+        font-family:'Yeseva One' ;
+        position: relative;
+        padding-top: 1%;
+        width: 100%;
+        padding-left: 0%;
+        float: left;
+    }
 
-.menuHamburguesa{
-    background-color: #e59f4a;
-    height: 120px;
-    font-family:'Yeseva One' ;
-    justify-content: center;
-    display: flex;
-    align-items: center;
+    .tituloH{
+        margin-top: 2%;
+        margin-left: 37%;
+        font-size: 3.4vw;
+        position: relative;
+    }
+
+    .contenedorH{
+        background-color: rgb(245, 244, 244);
+        width: 42%;
+        margin-top: 1%;
+        margin-left: 4%;
+        margin-bottom: 1%;
+        padding: 1%;
+        position: relative;
+        float: left;
+        box-shadow: 10px 10px;
+    }
+
+    .nombreH{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1.8vw;
+        font-weight: bold;
+        position: relative;
+        padding: 0;
+        margin: 0%;
+    }
+
+    .desH{
+        font-family: 'Cuprum', sans-serif;
+        font-size: 1.4vw;
+        position: relative;
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .notaH{
+        font-family: 'Cuprum', sans-serif;
+        text-decoration: underline;
+        font-size: 1.2vw;
+        position: relative;
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .precioH{
+        padding: 0;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: bold;
+        font-size: 1.8vw;
+        position: relative;
+        float: right;
+        margin: 0%;
+        margin-top: -6%;
+        padding: 0;
+    }
+
 }
