@@ -184,7 +184,7 @@
 
     .tituloTM{
         margin-top: 2%;
-        text-align: center;
+        margin-left: 37%;
         font-size: 3.4vw;
         position: relative;
     }
@@ -453,7 +453,7 @@
 
     .tituloTM{
         margin-top: 2%;
-        text-align: center;
+        margin-left: 37%;
         font-size: 3.4vw;
         position: relative;
     }
@@ -525,17 +525,17 @@
 
     .tituloBB{
         margin-top: 2%;
-        margin-bottom: 0%;
-        text-align: center;
+        margin-left: 37%;
         font-size: 3.4vw;
         position: relative;
         color: white;
     }
 
     .contenedorBB{
-        width: 64%;
+        background-color: #fa9417;
+        width: 42%;
         margin-top: 1%;
-        margin-left: 16%;
+        margin-left: 4%;
         margin-bottom: 3%;
         padding: 1%;
         position: relative;
@@ -550,7 +550,6 @@
         position: relative;
         padding: 0;
         margin: 0%;
-        color: white;
     }
 
     .desBB{
@@ -559,7 +558,6 @@
         position: relative;
         padding: 0;
         margin-bottom: 0;
-        color: white;
     }
 
     .notaBB{
@@ -569,7 +567,6 @@
         position: relative;
         padding: 0;
         margin-bottom: 0;
-        color: white;
     }
 
     .precioBB{
@@ -580,15 +577,14 @@
         position: relative;
         float: right;
         margin: 0%;
-        margin-top: -3.5%;
+        margin-top: -6%;
         padding: 0;
-        color: white;
     }
 
     /* Hog dog */
 
     .menuHD{
-        background-color: #b90101;
+        background-color: #fa9417;
         font-family:'Yeseva One' ;
         position: relative;
         padding-top: 1%;
@@ -598,19 +594,21 @@
     }
 
     .tituloHD{
+        background-color: #ffffff;
         margin-top: 2%;
-        text-align: center;
+        margin-left: 41%;
+        margin-right: 41%;
         padding: .5%;
         font-size: 3.4vw;
         position: relative;
-        color: #ffffff;
+        color: #fa9417;
         border-radius: 15px;
     }
 
     .contenedorHD{
-        width: 34%;
+        width: 42%;
         margin-top: 1%;
-        margin-left: 9%;
+        margin-left: 4%;
         margin-bottom: 3%;
         padding: 1%;
         position: relative;
@@ -625,7 +623,6 @@
         position: relative;
         padding: 0;
         margin: 0%;
-        color: #ffffff;
     }
 
     .desHD{
@@ -634,7 +631,6 @@
         position: relative;
         padding: 0;
         margin-bottom: 0;
-        color: #ffffff;
     }
 
     .notaHD{
@@ -644,7 +640,6 @@
         position: relative;
         padding: 0;
         margin-bottom: 0;
-        color: #ffffff;
     }
 
     .precioHD{
@@ -657,7 +652,6 @@
         margin: 0%;
         margin-top: -6%;
         padding: 0;
-        color: #ffffff;
     }
 
 }
