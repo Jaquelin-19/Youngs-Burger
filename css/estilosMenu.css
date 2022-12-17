@@ -68,16 +68,14 @@
         left: 0%;
     }
 
-    .objetoMenu{
-        width: 15%;
-        color:#fc9211;
-        position: relative;
-        padding: 0%;
-        float: left;
-        margin-top: 6%;
-        margin-left: 1.4%;
-        text-align: center;
-    }
+.objetoMenu{
+    color:#e59f4a;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    text-align: center;
+    margin-left: 15px;
+}
 
     .tituloMenu{
         position: relative;
@@ -94,32 +92,9 @@
         border-radius: 13%;
     }
 
-
-
-    /* Burguers */
-
-    .imgH{
-        width: 100%;
-        position: relative;
-    }
-
-    .imgLH{
-        width: 7%;
-        border-radius: 50px;
-        position: relative;
-        margin-top: -3%;
-        margin-left: 47%;
-    }
-    .menuHamburguesa{
-        background-color: #fa9417;
-        font-family:'Yeseva One' ;
-        position: relative;
-        padding-top: 0%;
-        padding-bottom: 3%;
-        width: 100%;
-        padding-left: 0%;
-        float: left;
-    }
+#hamburguesa{
+    float: left;
+}
 
     .tituloH{
         margin-top: 2%;
@@ -397,213 +372,19 @@
         float: left;
     }
 
-    .tituloTM{
-        margin-top: 2%;
-        text-align: center;
-        font-size: 3.4vw;
-        position: relative;
-    }
+#snacks{
+    float: left;
+}
 
-    .contenedorTM{
-        background-color: #fa9417;
-        border-color: #000000;
-        border-width: 1%;
-        border-style: solid;
-        width: 42%;
-        margin-top: 1%;
-        margin-left: 4%;
-        margin-bottom: 3%;
-        padding: 1%;
-        position: relative;
-        float: left;
-        box-shadow: 10px 10px rgb(0, 0, 0);
-    }
+#bebida{
+    float: left;
+}
 
-    .nombreTM{
-        font-family: 'Cormorant Garamond', serif;
-        font-size: 1.8vw;
-        font-weight: bold;
-        position: relative;
-        padding: 0;
-        margin: 0%;
-    }
-
-    .desTM{
-        font-family: 'Cuprum', sans-serif;
-        font-size: 1.4vw;
-        position: relative;
-        padding: 0;
-        margin-bottom: 0;
-    }
-
-    .notaTM{
-        font-family: 'Cuprum', sans-serif;
-        text-decoration: underline;
-        font-size: 1.2vw;
-        position: relative;
-        padding: 0;
-        margin-bottom: 0;
-    }
-
-    .precioTM{
-        padding: 0;
-        font-family: 'Cormorant Garamond', serif;
-        font-weight: bold;
-        font-size: 1.8vw;
-        position: relative;
-        float: right;
-        margin: 0%;
-        margin-top: -6%;
-        padding: 0;
-    }
-
-    /* Boneless */
-
-    .menuBB{
-        background-color: #000000;
-        font-family:'Yeseva One' ;
-        position: relative;
-        padding-top: 1%;
-        width: 100%;
-        padding-left: 0%;
-        float: left;
-    }
-
-    .tituloBB{
-        margin-top: 2%;
-        margin-bottom: 0%;
-        text-align: center;
-        font-size: 3.4vw;
-        position: relative;
-        color: white;
-    }
-
-    .contenedorBB{
-        width: 64%;
-        margin-top: 1%;
-        margin-left: 16%;
-        margin-bottom: 3%;
-        padding: 1%;
-        position: relative;
-        float: left;
-       
-    }
-
-    .nombreBB{
-        font-family: 'Cormorant Garamond', serif;
-        font-size: 1.8vw;
-        font-weight: bold;
-        position: relative;
-        padding: 0;
-        margin: 0%;
-        color: white;
-    }
-
-    .desBB{
-        font-family: 'Cuprum', sans-serif;
-        font-size: 1.4vw;
-        position: relative;
-        padding: 0;
-        margin-bottom: 0;
-        color: white;
-    }
-
-    .notaBB{
-        font-family: 'Cuprum', sans-serif;
-        text-decoration: underline;
-        font-size: 1.2vw;
-        position: relative;
-        padding: 0;
-        margin-bottom: 0;
-        color: white;
-    }
-
-    .precioBB{
-        padding: 0;
-        font-family: 'Cormorant Garamond', serif;
-        font-weight: bold;
-        font-size: 1.8vw;
-        position: relative;
-        float: right;
-        margin: 0%;
-        margin-top: -3.5%;
-        padding: 0;
-        color: white;
-    }
-
-    /* Hog dog */
-
-    .menuHD{
-        background-color: #b90101;
-        font-family:'Yeseva One' ;
-        position: relative;
-        padding-top: 1%;
-        width: 100%;
-        padding-left: 0%;
-        float: left;
-    }
-
-    .tituloHD{
-        margin-top: 2%;
-        text-align: center;
-        padding: .5%;
-        font-size: 3.4vw;
-        position: relative;
-        color: #ffffff;
-        border-radius: 15px;
-    }
-
-    .contenedorHD{
-        width: 34%;
-        margin-top: 1%;
-        margin-left: 9%;
-        margin-bottom: 3%;
-        padding: 1%;
-        position: relative;
-        float: left;
-       
-    }
-
-    .nombreHD{
-        font-family: 'Cormorant Garamond', serif;
-        font-size: 1.8vw;
-        font-weight: bold;
-        position: relative;
-        padding: 0;
-        margin: 0%;
-        color: #ffffff;
-    }
-
-    .desHD{
-        font-family: 'Cuprum', sans-serif;
-        font-size: 1.4vw;
-        position: relative;
-        padding: 0;
-        margin-bottom: 0;
-        color: #ffffff;
-    }
-
-    .notaHD{
-        font-family: 'Cuprum', sans-serif;
-        text-decoration: underline;
-        font-size: 1.2vw;
-        position: relative;
-        padding: 0;
-        margin-bottom: 0;
-        color: #ffffff;
-    }
-
-    .precioHD{
-        padding: 0;
-        font-family: 'Cormorant Garamond', serif;
-        font-weight: bold;
-        font-size: 1.8vw;
-        position: relative;
-        float: right;
-        margin: 0%;
-        margin-top: -6%;
-        padding: 0;
-        color: #ffffff;
-    }
-
+.menuHamburguesa{
+    background-color: #e59f4a;
+    height: 120px;
+    font-family:'Yeseva One' ;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
