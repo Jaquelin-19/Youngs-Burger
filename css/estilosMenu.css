@@ -384,13 +384,26 @@
         float: left;
     }
 
-#snacks{
-    float: left;
-}
+    .notaH{
+        font-family: 'Cuprum', sans-serif;
+        text-decoration: underline;
+        font-size: 1.2vw;
+        position: relative;
+        padding: 0;
+        margin-bottom: 0;
+    }
 
-#bebida{
-    float: left;
-}
+    .precioH{
+        padding: 0;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: bold;
+        font-size: 1.8vw;
+        position: relative;
+        float: right;
+        margin: 0%;
+        margin-top: -6%;
+        padding: 0;
+    }
 
     .notaH{
         font-family: 'Cuprum', sans-serif;
