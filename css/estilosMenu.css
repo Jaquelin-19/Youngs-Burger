@@ -115,13 +115,22 @@
         position: relative;
     }
 
-#hotdog{
-    float: left;
-}
+    .desH{
+        font-family: 'Cuprum', sans-serif;
+        font-size: 1.4vw;
+        position: relative;
+        padding: 0;
+        margin-bottom: 0;
+    }
 
-#snacks{
-    float: left;
-}
+    .notaH{
+        font-family: 'Cuprum', sans-serif;
+        text-decoration: underline;
+        font-size: 1.2vw;
+        position: relative;
+        padding: 0;
+        margin-bottom: 0;
+    }
 
 #bebida{
     float: left;
