@@ -521,7 +521,11 @@
     /*flecha */
 
     .iconFA{
-
+        display:scroll;
+        position:fixed;
+        bottom: 2%;
+        right: 1%;
+        width: 2.7%;
     }
 
 }
