@@ -1,88 +1,90 @@
-.cuadradoF{
-    width: 40%;
-    padding: 2%;
-    background-color: #b90101;
-    position: absolute;
-    margin-bottom: 0%;
-}
+@media only screen and (max-width: 3840px) {
+    .cuadradoF{
+        width: 40%;
+        padding: 2%;
+        background-color: #b90101;
+        position: absolute;
+        margin-bottom: 0%;
+    }
 
-.logoF{
-    margin-top: 5%;
-    margin-left: 24%;
-    width: 50%;
-    position: relative;
-}
+    .logoF{
+        margin-top: 5%;
+        margin-left: 24%;
+        width: 50%;
+        position: relative;
+    }
 
-.tituloF{
-    margin-top: 7%;
-    font-size: 4vw;
-    text-align: center;
-    color: white;
-    font-family: 'Yeseva One', cursive;
-    position: relative;
-}
+    .tituloF{
+        margin-top: 7%;
+        font-size: 4vw;
+        text-align: center;
+        color: white;
+        font-family: 'Yeseva One', cursive;
+        position: relative;
+    }
 
-.textF{
-    font-size: 2.5vw;
-    font-family: 'Cormorant Garamond', serif;
-    color: white;
-    text-align: center;
-    position: relative;
-}
+    .textF{
+        font-size: 2.5vw;
+        font-family: 'Cormorant Garamond', serif;
+        color: white;
+        text-align: center;
+        position: relative;
+    }
 
-/*Cuadro dos */
+    /*Cuadro dos */
 
-.imgLocal{
-    width: 15%;
-    margin-top: 5%;
-    margin-left: 48%;
-    border-radius: 100px;
-    position: relative;
-}
+    .imgLocal{
+        width: 15%;
+        margin-top: 5%;
+        margin-left: 48%;
+        border-radius: 100px;
+        position: relative;
+    }
 
-.tituloL{
-    margin-top: -14%;
-    margin-left: 69%;
-    margin-bottom: 0%;
-    position: relative;
-    font-size: 3.5vw;
-    font-weight: bold;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-}
+    .tituloL{
+        margin-top: -14%;
+        margin-left: 69%;
+        margin-bottom: 0%;
+        position: relative;
+        font-size: 3.5vw;
+        font-weight: bold;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+    }
 
-.textL{
-    margin-top: 1%;
-    margin-left: 65%;
-    margin-right: 2%;
-    margin-bottom: 0%;
-    position: relative;
-    font-size: 1.7vw;
-    text-align: justify;
-    font-family: 'Cormorant Garamond', serif;
-}
+    .textL{
+        margin-top: 1%;
+        margin-left: 65%;
+        margin-right: 2%;
+        margin-bottom: 0%;
+        position: relative;
+        font-size: 1.7vw;
+        text-align: justify;
+        font-family: 'Cormorant Garamond', serif;
+    }
 
-.textLDos{
-    margin-top: 1%;
-    margin-left: 48%;
-    margin-right: 2%;
-    margin-bottom: 5%;
-    position: relative;
-    font-size: 1.7vw;
-    text-align: justify;
-    font-family: 'Cormorant Garamond', serif;
-}
+    .textLDos{
+        margin-top: 1%;
+        margin-left: 48%;
+        margin-right: 2%;
+        margin-bottom: 5%;
+        position: relative;
+        font-size: 1.7vw;
+        text-align: justify;
+        font-family: 'Cormorant Garamond', serif;
+    }
 
-.botonContacto{
-    margin-left: 68%;
-    background-color: #b90101;
-    font-family: 'Cormorant Garamond', serif;
-    text-decoration: none;
-    font-size: 1.6vw;
-    border: none;
-    color: white;
-    position: relative;
-    padding: 1%;
-    padding-left: 2%;
-    padding-right: 2%;
-    margin-bottom: 0%;
+    .botonContacto{
+        margin-left: 68%;
+        background-color: #b90101;
+        font-family: 'Cormorant Garamond', serif;
+        text-decoration: none;
+        font-size: 1.6vw;
+        border: none;
+        color: white;
+        position: relative;
+        padding: 1%;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-bottom: 0%;
+    }
 }
