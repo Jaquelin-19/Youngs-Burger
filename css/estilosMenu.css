@@ -399,4 +399,129 @@
         color: #ffffff;
     }
 
+    /* Snacks   */
+
+    .menuS{
+        background-color: #fa9417;
+        font-family:'Yeseva One' ;
+        position: relative;
+        padding-top: 1%;
+        width: 100%;
+        padding-left: 0%;
+        float: left;
+    }
+
+    .tituloS{
+        margin-top: 2%;
+        text-align: center;
+        padding: .5%;
+        font-size: 3.4vw;
+        position: relative;
+        color: #000000;
+        border-radius: 15px;
+    }
+
+    .contenedorTS{
+        border-color: #000000;
+        border-style: solid;
+        width: 80%;
+        margin-left: 10%;
+        padding-bottom: 22%;
+        margin-bottom: 3%;
+        position: relative;
+        
+    }
+
+    .contenedorS{
+        width: 34%;
+        margin-top: 1%;
+        margin-left: 9%;
+        margin-bottom: 3%;
+        padding: 1%;
+        position: relative;
+        text-align: center;
+        float: left;
+    }
+
+    .nombreS{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 2.7vw;
+        font-weight: bold;
+        position: relative;
+        padding: 0;
+        margin: 0%;
+        color: #000000;
+    }
+
+    .precioS{
+        padding: 0;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: bolder;
+        font-size: 2.9vw;
+        position: relative;
+        margin: 0%;
+        padding: 0;
+        color: #000000;
+    }
+
+    /* bebidas */
+
+    .menuB{
+        background-color: #000000;
+        font-family:'Yeseva One' ;
+        position: relative;
+        padding-top: 1%;
+        width: 100%;
+        padding-left: 0%;
+        float: left;
+    }
+
+    .tituloB{
+        margin-top: 2%;
+        text-align: center;
+        padding: .5%;
+        font-size: 3.4vw;
+        position: relative;
+        color: #ffffff;
+        border-radius: 15px;
+    }
+
+    .contenedorB{
+        width: 28%;
+        margin-top: 1%;
+        margin-left: 4%;
+        margin-bottom: 3%;
+        padding: 0;
+        position: relative;
+        text-align: center;
+        float: left;
+    }
+
+    .nombreB{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 2.7vw;
+        font-weight: bold;
+        position: relative;
+        padding: 0;
+        margin: 0%;
+        color: #ffffff;
+    }
+
+    .precioB{
+        padding: 0;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: bolder;
+        font-size: 2.9vw;
+        position: relative;
+        margin: 0%;
+        padding: 0;
+        color: #ffffff;
+    }
+
+    /*flecha */
+
+    .iconFA{
+
+    }
+
 }
