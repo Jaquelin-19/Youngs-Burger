@@ -68,14 +68,16 @@
         left: 0%;
     }
 
-.objetoMenu{
-    color:#e59f4a;
-    width: 250px;
-    height: 250px;
-    position: relative;
-    text-align: center;
-    margin-left: 15px;
-}
+    .objetoMenu{
+        width: 15%;
+        color:#fc9211;
+        position: relative;
+        padding: 0%;
+        float: left;
+        margin-top: 6%;
+        margin-left: 4%;
+        text-align: center;
+    }
 
     .tituloMenu{
         position: relative;
@@ -92,9 +94,19 @@
         border-radius: 13%;
     }
 
-#hamburguesa{
-    float: left;
-}
+
+
+    /* Burguers */
+
+    .menuHamburguesa{
+        background-color: #fa9417;
+        font-family:'Yeseva One' ;
+        position: relative;
+        padding-top: 1%;
+        width: 100%;
+        padding-left: 0%;
+        float: left;
+    }
 
     .tituloH{
         margin-top: 2%;
@@ -380,11 +392,25 @@
     float: left;
 }
 
-.menuHamburguesa{
-    background-color: #e59f4a;
-    height: 120px;
-    font-family:'Yeseva One' ;
-    justify-content: center;
-    display: flex;
-    align-items: center;
+    .notaH{
+        font-family: 'Cuprum', sans-serif;
+        text-decoration: underline;
+        font-size: 1.2vw;
+        position: relative;
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .precioH{
+        padding: 0;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: bold;
+        font-size: 1.8vw;
+        position: relative;
+        float: right;
+        margin: 0%;
+        margin-top: -6%;
+        padding: 0;
+    }
+
 }
