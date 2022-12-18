@@ -108,9 +108,12 @@
         float: left;
     }
 
-#marytierra{
-    float: left;
-}
+    .tituloH{
+        margin-top: 2%;
+        margin-left: 37%;
+        font-size: 3.4vw;
+        position: relative;
+    }
 
 #hotdog{
     float: left;
@@ -134,6 +137,221 @@
     }
 
     .precioH{
+        padding: 0;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: bold;
+        font-size: 1.8vw;
+        position: relative;
+        float: right;
+        margin: 0%;
+        margin-top: -6%;
+        padding: 0;
+    }
+
+    /* Tierra y mar */
+
+    .menuTM{
+        background-color: #ffffff;
+        font-family:'Yeseva One' ;
+        position: relative;
+        padding-top: 1%;
+        width: 100%;
+        padding-left: 0%;
+        float: left;
+    }
+
+    .tituloTM{
+        margin-top: 2%;
+        margin-left: 37%;
+        font-size: 3.4vw;
+        position: relative;
+    }
+
+    .contenedorTM{
+        background-color: #fa9417;
+        border-color: #000000;
+        border-width: 1%;
+        border-style: solid;
+        width: 42%;
+        margin-top: 1%;
+        margin-left: 4%;
+        margin-bottom: 3%;
+        padding: 1%;
+        position: relative;
+        float: left;
+        box-shadow: 10px 10px rgb(0, 0, 0);
+    }
+
+    .nombreTM{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1.8vw;
+        font-weight: bold;
+        position: relative;
+        padding: 0;
+        margin: 0%;
+    }
+
+    .desTM{
+        font-family: 'Cuprum', sans-serif;
+        font-size: 1.4vw;
+        position: relative;
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .notaTM{
+        font-family: 'Cuprum', sans-serif;
+        text-decoration: underline;
+        font-size: 1.2vw;
+        position: relative;
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .precioTM{
+        padding: 0;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: bold;
+        font-size: 1.8vw;
+        position: relative;
+        float: right;
+        margin: 0%;
+        margin-top: -6%;
+        padding: 0;
+    }
+
+    /* Boneless */
+
+    .menuBB{
+        background-color: #000000;
+        font-family:'Yeseva One' ;
+        position: relative;
+        padding-top: 1%;
+        width: 100%;
+        padding-left: 0%;
+        float: left;
+    }
+
+    .tituloBB{
+        margin-top: 2%;
+        margin-left: 37%;
+        font-size: 3.4vw;
+        position: relative;
+        color: white;
+    }
+
+    .contenedorBB{
+        background-color: #fa9417;
+        width: 42%;
+        margin-top: 1%;
+        margin-left: 4%;
+        margin-bottom: 3%;
+        padding: 1%;
+        position: relative;
+        float: left;
+       
+    }
+
+    .nombreBB{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1.8vw;
+        font-weight: bold;
+        position: relative;
+        padding: 0;
+        margin: 0%;
+    }
+
+    .desBB{
+        font-family: 'Cuprum', sans-serif;
+        font-size: 1.4vw;
+        position: relative;
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .notaBB{
+        font-family: 'Cuprum', sans-serif;
+        text-decoration: underline;
+        font-size: 1.2vw;
+        position: relative;
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .precioBB{
+        padding: 0;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: bold;
+        font-size: 1.8vw;
+        position: relative;
+        float: right;
+        margin: 0%;
+        margin-top: -6%;
+        padding: 0;
+    }
+
+    /* Hog dog */
+
+    .menuHD{
+        background-color: #fa9417;
+        font-family:'Yeseva One' ;
+        position: relative;
+        padding-top: 1%;
+        width: 100%;
+        padding-left: 0%;
+        float: left;
+    }
+
+    .tituloHD{
+        background-color: #ffffff;
+        margin-top: 2%;
+        margin-left: 41%;
+        margin-right: 41%;
+        padding: .5%;
+        font-size: 3.4vw;
+        position: relative;
+        color: #fa9417;
+        border-radius: 15px;
+    }
+
+    .contenedorHD{
+        width: 42%;
+        margin-top: 1%;
+        margin-left: 4%;
+        margin-bottom: 3%;
+        padding: 1%;
+        position: relative;
+        float: left;
+       
+    }
+
+    .nombreHD{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1.8vw;
+        font-weight: bold;
+        position: relative;
+        padding: 0;
+        margin: 0%;
+    }
+
+    .desHD{
+        font-family: 'Cuprum', sans-serif;
+        font-size: 1.4vw;
+        position: relative;
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .notaHD{
+        font-family: 'Cuprum', sans-serif;
+        text-decoration: underline;
+        font-size: 1.2vw;
+        position: relative;
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .precioHD{
         padding: 0;
         font-family: 'Cormorant Garamond', serif;
         font-weight: bold;
