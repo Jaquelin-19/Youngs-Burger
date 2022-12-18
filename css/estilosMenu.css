@@ -324,78 +324,9 @@
         float: left;
     }
 
-    .tituloHD{
-        background-color: #ffffff;
-        margin-top: 2%;
-        margin-left: 41%;
-        margin-right: 41%;
-        padding: .5%;
-        font-size: 3.4vw;
-        position: relative;
-        color: #fa9417;
-        border-radius: 15px;
-    }
-
-    .contenedorHD{
-        width: 38%;
-        margin-top: 1%;
-        margin-left: 9%;
-        margin-bottom: 3%;
-        padding: 1%;
-        position: relative;
-        float: left;
-       
-    }
-
-    .nombreHD{
-        font-family: 'Cormorant Garamond', serif;
-        font-size: 1.8vw;
-        font-weight: bold;
-        position: relative;
-        padding: 0;
-        margin: 0%;
-    }
-
-    .desHD{
-        font-family: 'Cuprum', sans-serif;
-        font-size: 1.4vw;
-        position: relative;
-        padding: 0;
-        margin-bottom: 0;
-    }
-
-    .notaHD{
-        font-family: 'Cuprum', sans-serif;
-        text-decoration: underline;
-        font-size: 1.2vw;
-        position: relative;
-        padding: 0;
-        margin-bottom: 0;
-    }
-
-    .precioHD{
-        padding: 0;
-        font-family: 'Cormorant Garamond', serif;
-        font-weight: bold;
-        font-size: 1.8vw;
-        position: relative;
-        float: right;
-        margin: 0%;
-        margin-top: -6%;
-        padding: 0;
-    }
-
-    /* Tierra y mar */
-
-    .menuTM{
-        background-color: #ffffff;
-        font-family:'Yeseva One' ;
-        position: relative;
-        padding-top: 1%;
-        width: 100%;
-        padding-left: 0%;
-        float: left;
-    }
+#hotdog{
+    float: left;
+}
 
     .notaH{
         font-family: 'Cuprum', sans-serif;
