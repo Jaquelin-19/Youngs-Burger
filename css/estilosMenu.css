@@ -1,4 +1,4 @@
-@media only screen and (max-width: 3840px) {
+@media (min-width: 850px) {
     body{
         margin: 0;
         padding: 0
@@ -533,7 +533,7 @@
     }
 
 }
-@media only screen and (max-width: 850px) {
+@media (max-width: 849px) {
     
     .subCabecera{
         font-family:'Yeseva One' ;
