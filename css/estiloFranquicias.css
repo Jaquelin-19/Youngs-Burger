@@ -4,7 +4,6 @@
         padding: 2%;
         background-color: #b90101;
         position: absolute;
-        margin-bottom: 0%;
     }
 
     .logoF{
@@ -85,7 +84,6 @@
         padding: 1%;
         padding-left: 2%;
         padding-right: 2%;
-        margin-bottom: 0%;
     }
 }
 @media only screen and (max-width: 2160px) {
