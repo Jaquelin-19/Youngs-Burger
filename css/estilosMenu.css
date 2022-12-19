@@ -525,15 +525,11 @@
         position:fixed;
         bottom: 2%;
         right: 1%;
-        width: 2.4%;
+        font-size: 32px;
         color: #fff;
         display: inline-block;
         text-decoration: none;
-    }
-    
-    .iconFA:hover{
-        background: rgba(0, 0, 0, .5);
-        transition: .5s;
+        transform: rotate(-90deg);
     }
 
 }
