@@ -6,7 +6,7 @@
     #ubicacionC{    
         position: relative;
         padding: 5%;
-        font-size: 17px;
+        font-size: 1.3vw;
         color: rgb(0, 0, 0);
         font-weight: bold;    
         font-family: 'Handlee', cursive;
@@ -44,7 +44,7 @@
         border-radius: 10px;
         padding: 0%;
         opacity: 0.8;
-        font-size: 16px;
+        font-size: 1.2vw;
         margin-top: 15px;
         width: 42%;
         box-shadow: 10px 10px 10px black;
