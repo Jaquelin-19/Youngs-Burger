@@ -13,16 +13,6 @@
         background-color: rgb(219, 217, 217);
     }
 
-    #inicioC{
-        font-size: 18px;
-        color: rgb(255, 255, 255);
-        font-family: 'Handlee', cursive;
-        font-weight: bold;
-        position: absolute;
-        top: 30px;
-        left: 200px;
-    }
-
 /*  Cabecera  */
 
     header {
@@ -51,89 +41,8 @@
     }
 
     /* anuncios */
-    
-    .imgUber{
-        width: 100%;
-    }
-
-    .botonUber{
-        top: 143%;
-        left: 20%;
-        width: 12%;
-        height: 6%;
-        position: absolute;
-        background-color: white;
-        border: none;
-        border-radius: 20px;
-        text-decoration: none;
-        color: black;
-    }
 
     .textUber{
-        text-align: center;
-        font-size: 21px;
-        margin-top: 6px;
-        font-family: 'PT Mono', monospace;
-    }
-
-    .botonRappi{
-        top: 143%;
-        left: 35%;
-        width: 12%;
-        height: 6%;
-        position: absolute;
-        background-color: white;
-        border: none;
-        border-radius: 20px;
-        text-decoration: none;
-        color: black;
-    }
-    
-    .textRappi{
-        text-align: center;
-        font-size: 21px;
-        margin-top: 6px;
-        font-family: 'PT Mono', monospace;
-    }
-
-    .imgUber{
-        width: 100%;
-    }
-
-    .botonUber{
-        top: 143%;
-        left: 20%;
-        width: 12%;
-        height: 6%;
-        position: absolute;
-        background-color: white;
-        border: none;
-        border-radius: 20px;
-        text-decoration: none;
-        color: black;
-    }
-
-    .textUber{
-        text-align: center;
-        font-size: 21px;
-        margin-top: 6px;
-        font-family: 'PT Mono', monospace;
-    }
-
-    .botonRappi{
-        top: 143%;
-        left: 35%;
-        width: 12%;
-        height: 6%;
-        position: absolute;
-        background-color: white;
-        border: none;
-        border-radius: 20px;
-        text-decoration: none;
-        color: black;
-    }
-    
-    .textRappi{
         text-align: center;
         font-size: 21px;
         margin-top: 6px;
@@ -244,13 +153,6 @@
         border-radius: 20px;
         text-decoration: none;
         color: black;
-    }
-
-    .textUber{
-        text-align: center;
-        font-size: 21px;
-        margin-top: 6px;
-        font-family: 'PT Mono', monospace;
     }
 
     .botonRappi{

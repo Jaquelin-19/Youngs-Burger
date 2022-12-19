@@ -11,7 +11,7 @@
 
     #ubicacionC{    
         padding-top: 90px;
-        font-size: 17px;
+        font-size: 1.3vw;
         color: rgb(0, 0, 0);
         font-weight: bold;    
         font-family: 'Handlee', cursive;
@@ -42,7 +42,7 @@
         padding-top: 1px;
         padding-bottom: 1px;
         opacity: 0.8;
-        font-size: 16px;
+        font-size: 1.2vw;
         margin-top: 15px;
         margin-left: 70px;
         width: 420px;
