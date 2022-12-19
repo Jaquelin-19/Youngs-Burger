@@ -192,6 +192,17 @@
     nav a:hover{
         color: #e59f4a
     }
+
+    .botonWha{
+        display:scroll;
+        position:fixed;
+        bottom: 8%;
+        right: 0.3%;
+        font-size: 32px;
+        color: #fff;
+        display: inline-block;
+        text-decoration: none;
+    }
   
 }
 @media (max-width: 849px) {
@@ -212,8 +223,6 @@
 /*  Cabecera  */
 
     header {
-        display: flex;
-        justify-content: space-between;
         background-color: black;
         position: relative;
         width: 100%;
@@ -221,18 +230,24 @@
     }
 
     .iconC {
-        width: 30%;
+        margin-left: 37%;
+        width: 25%;
         position:relative;
     }
 
     .nav-link{
         text-decoration: none;
+        margin-left: 6%;
+    }
+
+    nav a{
+        position: relative;
+        margin-top: 1%;
+        margin-left: 3%;
         color: rgb(255, 255, 255);
         font-family: 'Handlee', cursive;
-        font-size: 3vw;
+        font-size: 3.2vw;
         font-weight: bold;
-        justify-content: right;
-        margin-right: 1px;
     }
 
 /*   Slide    */
@@ -378,27 +393,24 @@
     } 
 
     /* Iconos e imagenes */
-    nav a{
-        font-weight: 600;
-        padding-right: 15px;
-    }
 
     nav a:hover{
         color: #e59f4a
     }
-
+  
     .botonWha{
-        position: fixed;
-    }
-
-    .iconWha{
         display:scroll;
-        width: 1%;
         position:fixed;
+        top: 10%;
+        right: 1%;
         color: #fff;
         display: inline-block;
         text-decoration: none;
-        transform: rotate(-90deg);
     }
-  
+
+    .iconWha{
+        width: 50%;
+        float: right;
+    }
+
 }
