@@ -210,11 +210,10 @@
         position: relative;
         width: 100%;
         height: auto;
-        align-items: center;
     }
 
     .iconC {
-        width: 13%;
+        width: 30%;
         position:relative;
     }
 
@@ -222,7 +221,7 @@
         text-decoration: none;
         color: rgb(255, 255, 255);
         font-family: 'Handlee', cursive;
-        font-size: 1.5vw;
+        font-size: 1vw;
         font-weight: bold;
         justify-content: right;
         margin-right: 10px;
