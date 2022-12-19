@@ -1,16 +1,11 @@
-    @media only screen and (max-width: 3840px) {
+@media only screen and (max-width: 3840px) {
     .general{    
-        height: 700px;
-    }
-
-    #map{
-        margin-right: 100px;
-        float: right;
-        box-shadow: 10px 10px 10px black;
+        width: 100%;
     }
 
     #ubicacionC{    
-        padding-top: 90px;
+        position: relative;
+        padding: 5%;
         font-size: 1.3vw;
         color: rgb(0, 0, 0);
         font-weight: bold;    
@@ -20,32 +15,38 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        height: 570px;
+    }
+
+    #map{
+        
+        padding: 0%;
+        margin: 0%;
+        position: relative;
+        float: right;
+        box-shadow: 10px 10px 10px black;
     }
 
     #infoU{
-        margin-left: 70px;
+        position: relative;
         background-color: #fff;
+        font-size: 16px;
         border-radius: 10px;
-        width: 420px;
-        padding-top: 1px;
-        padding-bottom: 1px;
-        padding-left: 20px;
+        width: 42%;
+        margin: 0%;
+        padding: 0%;
         opacity: 0.8;
         box-shadow: 10px 10px 10px black;
     }
 
     #horarios{
+        position: relative;
         background-color: #e59f4a;
         border-radius: 10px;
-        padding-left: 20px;
-        padding-top: 1px;
-        padding-bottom: 1px;
+        padding: 0%;
         opacity: 0.8;
         font-size: 1.2vw;
         margin-top: 15px;
-        margin-left: 70px;
-        width: 420px;
+        width: 42%;
         box-shadow: 10px 10px 10px black;
     }
 }
