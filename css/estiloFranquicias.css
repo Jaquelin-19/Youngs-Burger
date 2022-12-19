@@ -1,4 +1,4 @@
-@media only screen and (max-width: 3840px) {
+@media (min-width: 850px) {
     .cuadradoF{
         width: 40%;
         padding: 2%;
@@ -88,25 +88,27 @@
         margin-bottom: 0%;
     }
 }
-@media only screen and (max-width: 2160px) {
+@media (max-width: 849px) {
     .cuadradoF{
-        width: 40%;
-        padding: 2%;
+        width: 100%;
+        padding: 0%;
         background-color: #b90101;
         position: absolute;
-        margin-bottom: 0%;
+        margin: 0%;
+        text-align: center;
     }
 
     .logoF{
         margin-top: 5%;
-        margin-left: 24%;
-        width: 50%;
+        padding: 0%;
+        width: 52%;
         position: relative;
     }
 
     .tituloF{
-        margin-top: 7%;
-        font-size: 4vw;
+        margin-top: 2%;
+        padding: 0%;
+        font-size: 7vw;
         text-align: center;
         color: white;
         font-family: 'Yeseva One', cursive;
@@ -114,7 +116,11 @@
     }
 
     .textF{
-        font-size: 2.5vw;
+        padding: 0%;
+        margin-top: -3%;
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size: 4.7vw;
         font-family: 'Cormorant Garamond', serif;
         color: white;
         text-align: center;
@@ -124,51 +130,51 @@
     /*Cuadro dos */
 
     .imgLocal{
-        width: 15%;
-        margin-top: 5%;
-        margin-left: 48%;
+        width: 30%;
+        margin-top: 72%;
+        margin-left: 5%;
         border-radius: 100px;
         position: relative;
     }
 
     .tituloL{
-        margin-top: -14%;
-        margin-left: 69%;
+        margin-top: -30%;
+        margin-left: 40%;
         margin-bottom: 0%;
         position: relative;
-        font-size: 3.5vw;
+        font-size: 6vw;
         font-weight: bold;
         font-family: 'Yanone Kaffeesatz', sans-serif;
     }
 
     .textL{
         margin-top: 1%;
-        margin-left: 65%;
-        margin-right: 2%;
+        margin-left: 38%;
+        margin-right: 6%;
         margin-bottom: 0%;
         position: relative;
-        font-size: 1.7vw;
+        font-size: 4vw;
         text-align: justify;
         font-family: 'Cormorant Garamond', serif;
     }
 
     .textLDos{
         margin-top: 1%;
-        margin-left: 48%;
-        margin-right: 2%;
+        margin-left: 9%;
+        margin-right: 6%;
         margin-bottom: 5%;
         position: relative;
-        font-size: 1.7vw;
+        font-size: 4vw;
         text-align: justify;
         font-family: 'Cormorant Garamond', serif;
     }
 
     .botonContacto{
-        margin-left: 68%;
+        margin-left: 43%;
         background-color: #b90101;
         font-family: 'Cormorant Garamond', serif;
         text-decoration: none;
-        font-size: 1.6vw;
+        font-size: 3.2vw;
         border: none;
         color: white;
         position: relative;
