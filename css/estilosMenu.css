@@ -533,61 +533,11 @@
     }
 
 }
-@media only screen and (max-width: 2160px) {
-    body{
-        margin: 0;
-        padding: 0
-        
-    }
-
-    .fondo {
-        margin-top: 0px;
-        width: 100%;
-        height: 100%;
-        position: inherit;
-        background-color: rgb(219, 217, 217);
-    }
-
-/*  Cabecera  */
-
-    header {
-        display: flex;
-        justify-content: space-between;
-        background-color: black;
-        position: relative;
-        width: 100%;
-        height: auto;
-        align-items: center;
-    }
-
-    .iconC {
-        width: 13%;
-        position:relative;
-    }
-
-    .nav-link{
-        text-decoration: none;
-        color: rgb(255, 255, 255);
-        font-family: 'Handlee', cursive;
-        font-size: 1.5vw;
-        font-weight: bold;
-        justify-content: right;
-        margin-right: 10px;
-    }
-
-    nav a{
-        font-weight: 600;
-        padding-right: 15px;
-    }
-
-    nav a:hover{
-        color: #e59f4a
-    }
-
-
+@media only screen and (max-width: 850px) {
+    
     .subCabecera{
         font-family:'Yeseva One' ;
-        font-size: 1.8vw;
+        font-size: 4vw;
         justify-content: center;
         display: flex;
         align-items: center;
@@ -598,25 +548,25 @@
         width: 100%;
         position: relative;
         height: 0%;
-        padding-bottom: 25%;
+        padding-bottom: 165%;
         margin-bottom: 0px;
         left: 0%;
     }
 
     .objetoMenu{
-        width: 15%;
+        width: 50%;
         color:#fc9211;
         position: relative;
         padding: 0%;
         float: left;
         margin-top: 6%;
-        margin-left: 1.4%;
+        margin-left: -.5%;
         text-align: center;
     }
 
     .tituloMenu{
         position: relative;
-        font-size: 1.6vw;
+        font-size: 4.6vw;
         font-family: 'Handlee';
         font-weight: bold;
     }
@@ -642,7 +592,7 @@
         width: 7%;
         border-radius: 50px;
         position: relative;
-        margin-top: -3%;
+        margin-top: -5%;
         margin-left: 47%;
     }
     .menuHamburguesa{
@@ -659,25 +609,25 @@
     .tituloH{
         margin-top: 2%;
         text-align: center;
-        font-size: 3.4vw;
+        font-size: 7vw;
         position: relative;
     }
 
     .contenedorH{
         background-color: rgb(245, 244, 244);
-        width: 42%;
+        width: 77%;
         margin-top: 1%;
-        margin-left: 4%;
-        margin-bottom: 1%;
+        margin-left: 10%;
+        margin-bottom: 2%;
         padding: 1%;
         position: relative;
         float: left;
-        box-shadow: 10px 10px;
+        box-shadow: 4px 4px;
     }
 
     .nombreH{
         font-family: 'Cormorant Garamond', serif;
-        font-size: 1.8vw;
+        font-size: 3.6vw;
         font-weight: bold;
         position: relative;
         padding: 0;
@@ -686,7 +636,7 @@
 
     .desH{
         font-family: 'Cuprum', sans-serif;
-        font-size: 1.4vw;
+        font-size: 3vw;
         position: relative;
         padding: 0;
         margin-bottom: 0;
@@ -695,7 +645,7 @@
     .notaH{
         font-family: 'Cuprum', sans-serif;
         text-decoration: underline;
-        font-size: 1.2vw;
+        font-size: 2.5vw;
         position: relative;
         padding: 0;
         margin-bottom: 0;
@@ -705,11 +655,11 @@
         padding: 0;
         font-family: 'Cormorant Garamond', serif;
         font-weight: bold;
-        font-size: 1.8vw;
+        font-size: 3.6vw;
         position: relative;
         float: right;
         margin: 0%;
-        margin-top: -6%;
+        margin-top: -7%;
         padding: 0;
     }
 
@@ -720,6 +670,7 @@
         font-family:'Yeseva One' ;
         position: relative;
         padding-top: 1%;
+        padding-bottom: 2%;
         width: 100%;
         padding-left: 0%;
         float: left;
@@ -728,7 +679,7 @@
     .tituloTM{
         margin-top: 2%;
         text-align: center;
-        font-size: 3.4vw;
+        font-size: 7vw;
         position: relative;
     }
 
@@ -737,19 +688,19 @@
         border-color: #000000;
         border-width: 1%;
         border-style: solid;
-        width: 42%;
+        width: 77%;
         margin-top: 1%;
-        margin-left: 4%;
+        margin-left: 10%;
         margin-bottom: 3%;
         padding: 1%;
         position: relative;
         float: left;
-        box-shadow: 10px 10px rgb(0, 0, 0);
+        box-shadow: 4px 4px rgb(0, 0, 0);
     }
 
     .nombreTM{
         font-family: 'Cormorant Garamond', serif;
-        font-size: 1.8vw;
+        font-size: 3.6vw;
         font-weight: bold;
         position: relative;
         padding: 0;
@@ -758,16 +709,7 @@
 
     .desTM{
         font-family: 'Cuprum', sans-serif;
-        font-size: 1.4vw;
-        position: relative;
-        padding: 0;
-        margin-bottom: 0;
-    }
-
-    .notaTM{
-        font-family: 'Cuprum', sans-serif;
-        text-decoration: underline;
-        font-size: 1.2vw;
+        font-size: 3vw;
         position: relative;
         padding: 0;
         margin-bottom: 0;
@@ -777,11 +719,11 @@
         padding: 0;
         font-family: 'Cormorant Garamond', serif;
         font-weight: bold;
-        font-size: 1.8vw;
+        font-size: 3.6vw;
         position: relative;
         float: right;
         margin: 0%;
-        margin-top: -6%;
+        margin-top: -7%;
         padding: 0;
     }
 
@@ -792,6 +734,7 @@
         font-family:'Yeseva One' ;
         position: relative;
         padding-top: 1%;
+        padding-bottom: 2%;
         width: 100%;
         padding-left: 0%;
         float: left;
@@ -801,16 +744,16 @@
         margin-top: 2%;
         margin-bottom: 0%;
         text-align: center;
-        font-size: 3.4vw;
+        font-size: 7vw;
         position: relative;
         color: white;
     }
 
     .contenedorBB{
-        width: 64%;
-        margin-top: 1%;
-        margin-left: 16%;
-        margin-bottom: 3%;
+        width: 77%;
+        margin-top: 2%;
+        margin-left: 10%;
+        margin-bottom: 1%;
         padding: 1%;
         position: relative;
         float: left;
@@ -819,7 +762,7 @@
 
     .nombreBB{
         font-family: 'Cormorant Garamond', serif;
-        font-size: 1.8vw;
+        font-size: 3.6vw;
         font-weight: bold;
         position: relative;
         padding: 0;
@@ -829,17 +772,7 @@
 
     .desBB{
         font-family: 'Cuprum', sans-serif;
-        font-size: 1.4vw;
-        position: relative;
-        padding: 0;
-        margin-bottom: 0;
-        color: white;
-    }
-
-    .notaBB{
-        font-family: 'Cuprum', sans-serif;
-        text-decoration: underline;
-        font-size: 1.2vw;
+        font-size: 3vw;
         position: relative;
         padding: 0;
         margin-bottom: 0;
@@ -850,11 +783,11 @@
         padding: 0;
         font-family: 'Cormorant Garamond', serif;
         font-weight: bold;
-        font-size: 1.8vw;
+        font-size: 3.6vw;
         position: relative;
         float: right;
         margin: 0%;
-        margin-top: -3.5%;
+        margin-top: -6%;
         padding: 0;
         color: white;
     }
@@ -875,16 +808,16 @@
         margin-top: 2%;
         text-align: center;
         padding: .5%;
-        font-size: 3.4vw;
+        font-size: 7vw;
         position: relative;
         color: #ffffff;
         border-radius: 15px;
     }
 
     .contenedorHD{
-        width: 34%;
+        width: 38%;
         margin-top: 1%;
-        margin-left: 9%;
+        margin-left: 6%;
         margin-bottom: 3%;
         padding: 1%;
         position: relative;
@@ -894,7 +827,7 @@
 
     .nombreHD{
         font-family: 'Cormorant Garamond', serif;
-        font-size: 1.8vw;
+        font-size: 3.6vw;
         font-weight: bold;
         position: relative;
         padding: 0;
@@ -904,17 +837,7 @@
 
     .desHD{
         font-family: 'Cuprum', sans-serif;
-        font-size: 1.4vw;
-        position: relative;
-        padding: 0;
-        margin-bottom: 0;
-        color: #ffffff;
-    }
-
-    .notaHD{
-        font-family: 'Cuprum', sans-serif;
-        text-decoration: underline;
-        font-size: 1.2vw;
+        font-size: 3vw;
         position: relative;
         padding: 0;
         margin-bottom: 0;
@@ -925,11 +848,11 @@
         padding: 0;
         font-family: 'Cormorant Garamond', serif;
         font-weight: bold;
-        font-size: 1.8vw;
+        font-size: 3.6vw;
         position: relative;
         float: right;
         margin: 0%;
-        margin-top: -6%;
+        margin-top: -13%;
         padding: 0;
         color: #ffffff;
     }
@@ -950,7 +873,7 @@
         margin-top: 2%;
         text-align: center;
         padding: .5%;
-        font-size: 3.4vw;
+        font-size: 7vw;
         position: relative;
         color: #000000;
         border-radius: 15px;
@@ -959,9 +882,9 @@
     .contenedorTS{
         border-color: #000000;
         border-style: solid;
-        width: 80%;
-        margin-left: 10%;
-        padding-bottom: 22%;
+        width: 90%;
+        margin-left: 4%;
+        padding-bottom: 33%;
         margin-bottom: 3%;
         position: relative;
         
@@ -980,7 +903,7 @@
 
     .nombreS{
         font-family: 'Cormorant Garamond', serif;
-        font-size: 2.7vw;
+        font-size: 3.8vw;
         font-weight: bold;
         position: relative;
         padding: 0;
@@ -992,7 +915,7 @@
         padding: 0;
         font-family: 'Cormorant Garamond', serif;
         font-weight: bolder;
-        font-size: 2.9vw;
+        font-size: 6vw;
         position: relative;
         margin: 0%;
         padding: 0;
@@ -1015,16 +938,16 @@
         margin-top: 2%;
         text-align: center;
         padding: .5%;
-        font-size: 3.4vw;
+        font-size: 7vw;
         position: relative;
         color: #ffffff;
         border-radius: 15px;
     }
 
     .contenedorB{
-        width: 28%;
+        width: 30%;
         margin-top: 1%;
-        margin-left: 4%;
+        margin-left: 2%;
         margin-bottom: 3%;
         padding: 0;
         position: relative;
@@ -1034,7 +957,7 @@
 
     .nombreB{
         font-family: 'Cormorant Garamond', serif;
-        font-size: 2.7vw;
+        font-size: 3.8vw;
         font-weight: bold;
         position: relative;
         padding: 0;
@@ -1046,7 +969,7 @@
         padding: 0;
         font-family: 'Cormorant Garamond', serif;
         font-weight: bolder;
-        font-size: 2.9vw;
+        font-size: 6vw;
         position: relative;
         margin: 0%;
         padding: 0;
