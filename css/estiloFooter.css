@@ -5,7 +5,9 @@
 }
 
 .grupo1{
+    position: relative;
     width: 100%;
+    padding: 0%;
     max-width: 1200px;
     margin: auto;
     display: grid;
@@ -19,30 +21,37 @@
     width: 100%;
     height: 100%;
     display: flex;
+    padding: 0%;
+    margin: 0%;
     justify-content: center;
     align-items: center;
 }
 
 .grupo1 .box figure img{
     width: 100%;
+    padding: 0%;
+    margin: 0%;
 }
 
 .grupo1 .box h2{
     color: #e59f4a;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1.2%;
+    margin: 0%;
 }
 
 .redSocial a{
     display: inline-block;
     text-decoration: none;
-    padding: 0.8%;
+    padding: 1%;
     text-align: center;
-
+    margin: 0%;
 }
 
 .grupo2{
+    position: relative;
     background-color: #e59f4a;
-    padding: 2% 1%;
+    padding: 1%;
     text-align: center;
     color: black;
 } 
@@ -50,4 +59,29 @@
 .grupo2 small{
     font-size: 1.3vw;
     font-family: 'Cormorant Garamond', serif;
+}
+
+@media screen and (max-width:849px) {
+    .grupo1{
+        position: relative;
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 8%;
+        padding: 0.7%;
+        font-family: 'Cormorant Garamond', serif;
+    }
+    
+    .grupo1 .box figure img{
+        width: 60%;
+    }
+
+    .redSocial a{
+        display: inline-block;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    .grupo2{
+        margin-top: 11%;
+    }
 }
