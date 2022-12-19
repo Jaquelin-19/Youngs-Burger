@@ -1,7 +1,7 @@
 .footer{
     color: white;
     width: 100%;
-    background-color: black;
+    background-color:#b90101;
 }
 
 .infoFooter{
@@ -36,7 +36,7 @@
 
 .infoFooter .box h2{
     font-size: 2.5vw;
-    color: #e59f4a;
+    color: white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 1.2%;
     margin: 0%;
@@ -52,10 +52,10 @@
 
 .derechos{
     position: relative;
-    background-color: #e59f4a;
+    background-color: black;
     padding: 1%;
     text-align: center;
-    color: black;
+    color: white;
 } 
 
 .derechos small{
