@@ -1,4 +1,4 @@
-@media (min-width: 850px) {
+@media only screen and (max-width: 3840px) {
     body{
         margin: 0;
         padding: 0
