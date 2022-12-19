@@ -49,3 +49,54 @@
         box-shadow: 10px 10px 10px black;
     }
 }
+@media only screen and (max-width: 2160px) {
+    .general{    
+        width: 100%;
+    }
+
+    #ubicacionC{    
+        position: relative;
+        padding: 5%;
+        font-size: 1.3vw;
+        color: rgb(0, 0, 0);
+        font-weight: bold;    
+        font-family: 'Handlee', cursive;
+        background: linear-gradient(to bottom, rgb(0 0 0/ .75), rgb(0 0 0/ .60 )),
+        url("hamburguesa.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #map{
+        margin-right: 15%;
+        padding: 0%;
+        position: relative;
+        float: right;
+        box-shadow: 10px 10px 10px black;
+    }
+
+    #infoU{
+        position: relative;
+        background-color: #fff;
+        font-size: 1.4vw;
+        border-radius: 10px;
+        width: 42%;
+        margin: 0%;
+        padding: 0%;
+        opacity: 0.8;
+        box-shadow: 10px 10px 10px black;
+    }
+
+    #horarios{
+        position: relative;
+        background-color: #e59f4a;
+        border-radius: 10px;
+        padding: 0%;
+        opacity: 0.8;
+        font-size: 1.2vw;
+        margin-top: 15px;
+        width: 42%;
+        box-shadow: 10px 10px 10px black;
+    }
+}
