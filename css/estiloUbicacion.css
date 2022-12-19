@@ -18,9 +18,8 @@
     }
 
     #map{
-        
+        margin-right: 15%;
         padding: 0%;
-        margin: 0%;
         position: relative;
         float: right;
         box-shadow: 10px 10px 10px black;
