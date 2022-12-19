@@ -1,55 +1,5 @@
 @media (min-width: 850px) {
-    body{
-        margin: 0;
-        padding: 0
-        
-    }
-
-    .fondo {
-        margin-top: 0px;
-        width: 100%;
-        height: 100%;
-        position: inherit;
-        background-color: rgb(219, 217, 217);
-    }
-
-/*  Cabecera  */
-
-    header {
-        display: flex;
-        justify-content: space-between;
-        background-color: black;
-        position: relative;
-        width: 100%;
-        height: auto;
-        align-items: center;
-    }
-
-    .iconC {
-        width: 13%;
-        position:relative;
-    }
-
-    .nav-link{
-        text-decoration: none;
-        color: rgb(255, 255, 255);
-        font-family: 'Handlee', cursive;
-        font-size: 1.5vw;
-        font-weight: bold;
-        justify-content: right;
-        margin-right: 10px;
-    }
-
-    nav a{
-        font-weight: 600;
-        padding-right: 15px;
-    }
-
-    nav a:hover{
-        color: #e59f4a
-    }
-
-
+    
     .subCabecera{
         font-family:'Yeseva One' ;
         font-size: 1.8vw;
