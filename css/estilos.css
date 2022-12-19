@@ -386,5 +386,19 @@
     nav a:hover{
         color: #e59f4a
     }
+
+    .botonWha{
+        position: fixed;
+    }
+
+    .iconWha{
+        display:scroll;
+        width: 1%;
+        position:fixed;
+        color: #fff;
+        display: inline-block;
+        text-decoration: none;
+        transform: rotate(-90deg);
+    }
   
 }
